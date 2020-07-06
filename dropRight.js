@@ -9,7 +9,7 @@ function dropRight(arr, n) {
 
 	let newArr = []
 // We created this varriable that is attached to an empty array so when we do our ".slice"
-// we can set it to equal our newArr which will then change it from an empty array to whatever the ".slice" is moving into it.
+// we can set it to equal our newArr. Which will then change it from an empty array to whatever the ".slice" is moving into it.
 
 	if (n >= arr.length) {
 		return []
