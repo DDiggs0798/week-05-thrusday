@@ -22,6 +22,7 @@ function dropRight(arr, n) {
 	else {
 		// This will place the "arr.slice..." into the new array that I created above.
 		newArr = arr.slice(0,(arr.length - n))
+		//				   ^ This is our start number.
 	}
 //The slice() method returns the selected elements in an array, as a new array object.
 // The method requies a start and end parameter. In our case our Start is 0
