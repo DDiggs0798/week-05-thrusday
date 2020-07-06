@@ -33,7 +33,7 @@ function dropRight(arr, n) {
 	
 	
 	return newArr
-	// Depending on what n is equal two the return statement above will either 
+	// Depending on what n is equal too the return statement above will either 
 	//return our "If" statement or our "Else" statement.
 }
 console.log(dropRight([1,2,3,4], 2))
@@ -43,6 +43,7 @@ console.log(dropRight([1,2,3,4], 2))
 // So above is our console.log that will allow us to test this in our terminal.
 // We have an array with ([1,2,3,4], 2)
 //									 ^ This two is our -n.
+
 // So in this case our array has  a total count of 3 and our n = 2 so therefore it is less than our array.
 // So knowing this we know that it is not going to meet the requirements of our first if statement.
 // So our else statement is going to be the code that runs.
