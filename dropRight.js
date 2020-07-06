@@ -8,7 +8,8 @@ function dropRight(arr, n) {
 // than the array length an empty aray will be returned. ex. []
 
 	let newArr = []
-// In order for you to test this I created a new array above, that is empty.
+// We created this varriable that is attached to an empty array so when we do our ".slice"
+// we can set it to equal our newArr which will then change it from an empty array to whatever the ".slice" is moving into it.
 
 	if (n >= arr.length) {
 		return []
